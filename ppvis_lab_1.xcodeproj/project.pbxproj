@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2DF4CF292C517100FEBCA8 /* AddWagone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DF4CE292C517100FEBCA8 /* AddWagone.swift */; };
+		BC2DF4D1292C5D4700FEBCA8 /* EnterInWagone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DF4D0292C5D4700FEBCA8 /* EnterInWagone.swift */; };
+		BC2DF4D3292C62D300FEBCA8 /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DF4D2292C62D300FEBCA8 /* Barrier.swift */; };
+		BC2DF4E8292C6C0C00FEBCA8 /* ControlConditionBarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2DF4E7292C6C0C00FEBCA8 /* ControlConditionBarrier.swift */; };
+		BC3D7A5F29117C8900EAE27F /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D7A5E29117C8900EAE27F /* Station.swift */; };
+		BC3D7A6129117EB600EAE27F /* Wagone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D7A6029117EB600EAE27F /* Wagone.swift */; };
+		BC3D7A652911EED600EAE27F /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D7A642911EED600EAE27F /* Train.swift */; };
+		BC3D7A682913F08F00EAE27F /* Way.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D7A672913F08F00EAE27F /* Way.swift */; };
+		BC862B5D29116B7300986EBD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC862B5C29116B7300986EBD /* main.swift */; };
+		BC862B5F29116BD700986EBD /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC862B5E29116BD700986EBD /* Passenger.swift */; };
+		BCB869B7292C8718006133B3 /* DeleteWagone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869B6292C8718006133B3 /* DeleteWagone.swift */; };
+		BCB869B9292C8B92006133B3 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869B8292C8B92006133B3 /* Ticket.swift */; };
+		BCB869BB292C8EAE006133B3 /* RailroadCrossing .swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869BA292C8EAE006133B3 /* RailroadCrossing .swift */; };
+		BCB869BD292C9343006133B3 /* CloseRailroad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869BC292C9343006133B3 /* CloseRailroad.swift */; };
+		BCB869BF292C9414006133B3 /* WaitingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869BE292C9414006133B3 /* WaitingRoom.swift */; };
+		BCB869C1292C980D006133B3 /* MovingInWaitingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C0292C980D006133B3 /* MovingInWaitingRoom.swift */; };
+		BCB869C3292C9826006133B3 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C2292C9826006133B3 /* Semaphore.swift */; };
+		BCB869C5292C986A006133B3 /* UseSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C4292C986A006133B3 /* UseSemaphore.swift */; };
+		BCB869C9292C9AD0006133B3 /* CreateWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C8292C9AD0006133B3 /* CreateWay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC862B49291054C500986EBD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC2DF4CE292C517100FEBCA8 /* AddWagone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWagone.swift; sourceTree = "<group>"; };
+		BC2DF4D0292C5D4700FEBCA8 /* EnterInWagone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInWagone.swift; sourceTree = "<group>"; };
+		BC2DF4D2292C62D300FEBCA8 /* Barrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
+		BC2DF4E7292C6C0C00FEBCA8 /* ControlConditionBarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlConditionBarrier.swift; sourceTree = "<group>"; };
+		BC3D7A5E29117C8900EAE27F /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		BC3D7A6029117EB600EAE27F /* Wagone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wagone.swift; sourceTree = "<group>"; };
+		BC3D7A642911EED600EAE27F /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		BC3D7A672913F08F00EAE27F /* Way.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Way.swift; sourceTree = "<group>"; };
+		BC862B4B291054C500986EBD /* ppvis_lab_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ppvis_lab_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC862B5C29116B7300986EBD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC862B5E29116BD700986EBD /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		BCB869B6292C8718006133B3 /* DeleteWagone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteWagone.swift; sourceTree = "<group>"; };
+		BCB869B8292C8B92006133B3 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		BCB869BA292C8EAE006133B3 /* RailroadCrossing .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RailroadCrossing .swift"; sourceTree = "<group>"; };
+		BCB869BC292C9343006133B3 /* CloseRailroad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseRailroad.swift; sourceTree = "<group>"; };
+		BCB869BE292C9414006133B3 /* WaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingRoom.swift; sourceTree = "<group>"; };
+		BCB869C0292C980D006133B3 /* MovingInWaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingInWaitingRoom.swift; sourceTree = "<group>"; };
+		BCB869C2292C9826006133B3 /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
+		BCB869C4292C986A006133B3 /* UseSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSemaphore.swift; sourceTree = "<group>"; };
+		BCB869C6292C98BF006133B3 /* about */ = {isa = PBXFileReference; lastKnownFileType = text; path = about; sourceTree = "<group>"; };
+		BCB869C8292C9AD0006133B3 /* CreateWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC862B48291054C500986EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC862B42291054C500986EBD = {
+			isa = PBXGroup;
+			children = (
+				BC862B4D291054C500986EBD /* ppvis_lab_1 */,
+				BC862B4C291054C500986EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC862B4C291054C500986EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC862B4B291054C500986EBD /* ppvis_lab_1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC862B4D291054C500986EBD /* ppvis_lab_1 */ = {
+			isa = PBXGroup;
+			children = (
+				BC862B572910578A00986EBD /* controllers */,
+				BC862B552910577300986EBD /* model */,
+				BC862B5C29116B7300986EBD /* main.swift */,
+				BCB869C6292C98BF006133B3 /* about */,
+			);
+			path = ppvis_lab_1;
+			sourceTree = "<group>";
+		};
+		BC862B552910577300986EBD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BC862B5E29116BD700986EBD /* Passenger.swift */,
+				BC3D7A5E29117C8900EAE27F /* Station.swift */,
+				BC3D7A6029117EB600EAE27F /* Wagone.swift */,
+				BC3D7A642911EED600EAE27F /* Train.swift */,
+				BC3D7A672913F08F00EAE27F /* Way.swift */,
+				BC2DF4D2292C62D300FEBCA8 /* Barrier.swift */,
+				BCB869B8292C8B92006133B3 /* Ticket.swift */,
+				BCB869BA292C8EAE006133B3 /* RailroadCrossing .swift */,
+				BCB869BE292C9414006133B3 /* WaitingRoom.swift */,
+				BCB869C2292C9826006133B3 /* Semaphore.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BC862B572910578A00986EBD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC2DF4CE292C517100FEBCA8 /* AddWagone.swift */,
+				BC2DF4D0292C5D4700FEBCA8 /* EnterInWagone.swift */,
+				BC2DF4E7292C6C0C00FEBCA8 /* ControlConditionBarrier.swift */,
+				BCB869B6292C8718006133B3 /* DeleteWagone.swift */,
+				BCB869BC292C9343006133B3 /* CloseRailroad.swift */,
+				BCB869C0292C980D006133B3 /* MovingInWaitingRoom.swift */,
+				BCB869C4292C986A006133B3 /* UseSemaphore.swift */,
+				BCB869C8292C9AD0006133B3 /* CreateWay.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC862B4A291054C500986EBD /* ppvis_lab_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC862B52291054C500986EBD /* Build configuration list for PBXNativeTarget "ppvis_lab_1" */;
+			buildPhases = (
+				BC862B47291054C500986EBD /* Sources */,
+				BC862B48291054C500986EBD /* Frameworks */,
+				BC862B49291054C500986EBD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ppvis_lab_1;
+			productName = ppvis_lab_1;
+			productReference = BC862B4B291054C500986EBD /* ppvis_lab_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC862B43291054C500986EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BC862B4A291054C500986EBD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BC862B46291054C500986EBD /* Build configuration list for PBXProject "ppvis_lab_1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC862B42291054C500986EBD;
+			productRefGroup = BC862B4C291054C500986EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC862B4A291054C500986EBD /* ppvis_lab_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC862B47291054C500986EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB869C1292C980D006133B3 /* MovingInWaitingRoom.swift in Sources */,
+				BCB869C5292C986A006133B3 /* UseSemaphore.swift in Sources */,
+				BCB869BD292C9343006133B3 /* CloseRailroad.swift in Sources */,
+				BC3D7A6129117EB600EAE27F /* Wagone.swift in Sources */,
+				BCB869B7292C8718006133B3 /* DeleteWagone.swift in Sources */,
+				BC2DF4E8292C6C0C00FEBCA8 /* ControlConditionBarrier.swift in Sources */,
+				BC3D7A5F29117C8900EAE27F /* Station.swift in Sources */,
+				BC2DF4D3292C62D300FEBCA8 /* Barrier.swift in Sources */,
+				BC862B5F29116BD700986EBD /* Passenger.swift in Sources */,
+				BCB869B9292C8B92006133B3 /* Ticket.swift in Sources */,
+				BCB869C3292C9826006133B3 /* Semaphore.swift in Sources */,
+				BC2DF4CF292C517100FEBCA8 /* AddWagone.swift in Sources */,
+				BC2DF4D1292C5D4700FEBCA8 /* EnterInWagone.swift in Sources */,
+				BCB869BB292C8EAE006133B3 /* RailroadCrossing .swift in Sources */,
+				BCB869BF292C9414006133B3 /* WaitingRoom.swift in Sources */,
+				BC3D7A682913F08F00EAE27F /* Way.swift in Sources */,
+				BC3D7A652911EED600EAE27F /* Train.swift in Sources */,
+				BC862B5D29116B7300986EBD /* main.swift in Sources */,
+				BCB869C9292C9AD0006133B3 /* CreateWay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC862B50291054C500986EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC862B51291054C500986EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC862B53291054C500986EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L7SS75SFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC862B54291054C500986EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L7SS75SFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC862B46291054C500986EBD /* Build configuration list for PBXProject "ppvis_lab_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC862B50291054C500986EBD /* Debug */,
+				BC862B51291054C500986EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC862B52291054C500986EBD /* Build configuration list for PBXNativeTarget "ppvis_lab_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC862B53291054C500986EBD /* Debug */,
+				BC862B54291054C500986EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC862B43291054C500986EBD /* Project object */;
+}
