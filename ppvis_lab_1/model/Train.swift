@@ -8,6 +8,7 @@
 import Foundation
 
 class Train {
+    var speed: Int
     var maxCountOfWagone: Int = 15
     var wagones: [Wagone] = []
     var way: Way
@@ -16,7 +17,8 @@ class Train {
     
     
     
-    init(way: Way, currentStation: Stations) {
+    init(speed: Int, way: Way, currentStation: Stations) {
+        self.speed = speed
         self.way = way
         Train.endStation = way.stationsOnWay.last!
         self.currentStation = currentStation

@@ -9,7 +9,7 @@ import Foundation
 
 class Main {
     var way: Way = CreateWay.createWay(whichOne: 1)
-    lazy var train = Train(way: way, currentStation: way.stationsOnWay.first!)
+    lazy var train = Train(speed: 60, way: way, currentStation: way.stationsOnWay.first!)
     var wagone: Wagone = Wagone()
     lazy var passengers: [Passenger] = testPassengers()
     
@@ -49,6 +49,12 @@ class Main {
     // перемещение в зал ожидание одного пассажира
     func movePass() {
         MovingInWaitingRoom.move(passsenger: passengers[0])
+    }
+    
+    //движение поезда
+    func moveTrain() {
+        var move = MovementTrain()
+        move.moveTrain()
     }
     
     
