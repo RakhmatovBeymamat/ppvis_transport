@@ -8,5 +8,12 @@
 import Foundation
 
 class WaitingRoom {
+    var places: Int
+    static var passengersInWaitingRoom: [Passenger] = []
+    
+    init(places: Int, passengersInWaitingRoom: [Passenger]) {
+        self.places = places
+        WaitingRoom.passengersInWaitingRoom = passengersInWaitingRoom
+    }
     
 }

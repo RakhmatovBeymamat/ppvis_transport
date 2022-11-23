@@ -8,5 +8,3 @@
 import Foundation
 import os.log
 
-//var train = Train(setSpeed: 50, currentStation: .Tashkent, endStations: .Xiva)
-var station = Station(Stations: .Tashkent)

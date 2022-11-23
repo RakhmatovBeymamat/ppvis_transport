@@ -10,7 +10,7 @@ import Foundation
 class MovingInWaitingRoom {
     func move(passsenger: Passenger) {
         if UseSemaphore.useSemaphore() {
-            
+            WaitingRoom.passengersInWaitingRoom.append(passsenger)
         }
     }
 }

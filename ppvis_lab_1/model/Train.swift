@@ -17,10 +17,10 @@ class Train {
     
     
     
-    init(setSpeed: Int, currentStation: Stations, way: Way) {
+    init(setSpeed: Int, way: Way, currentStation: Stations) {
         self.speed = setSpeed
-        self.currentStation = currentStation
         self.way = way
-        Train.endStation = self.way.stationsOnWay.last!
+        Train.endStation = Way.stationsOnWay.last!
+        self.currentStation = currentStation
     }
 }

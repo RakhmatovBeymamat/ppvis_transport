@@ -26,7 +26,7 @@ class Station {
     var barrier = Barrier(condition: .open)
     var railRoadCrossing = RailroadCrossing(trafficLigth: .green, stopGland: .open)
     
-    init(Stations: Stations) {
-        self.whichStation = Stations
+    init(stations: Stations) {
+        self.whichStation = stations
     }
 }

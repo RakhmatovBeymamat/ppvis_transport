@@ -8,5 +8,7 @@
 import Foundation
 
 class Way {
-    var stationsOnWay: [Stations] = []
+    static var stationsOnWay: [Stations] = []
+    
+    var countStations: Int = 0
 }

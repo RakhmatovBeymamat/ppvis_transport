@@ -9,11 +9,15 @@ import Foundation
 
 class UseSemaphore {
     static func useSemaphore() -> Bool {
-        var newWay = Way()
-        var createWay = CreateWay.createWay(whichOne: 2)
-        newWay.stationsOnWay = createWay
-        var lastStation = newWay.stationsOnWay.last
+
+        let createWay = CreateWay.createWay(whichOne: 2)
+        Way.stationsOnWay = createWay
+        let lastStation = Way.stationsOnWay.last
         
-        return false
+        if Train.endStation == lastStation {
+            return true
+        } else {
+            return false
+        }
     }
 }
