@@ -23,6 +23,6 @@
 
 Чтобы запустить проект требуется:
 1) Xcode 14+
-2) developer commandline tools
+2) developer command line tools
 
 Чтобы использать достаточно вызвать готовые методы класса Main, вне класса Main.
