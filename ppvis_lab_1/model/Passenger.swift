@@ -13,7 +13,7 @@ class Passenger {
     var endStationPassenger: Stations
     var passengerCargo: Int
     
-    var ticket: Ticket
+    lazy var ticket: Ticket = Ticket(currnetStationTicket: currentStationPassenger, endStationTicket: endStationPassenger)
     var wagone = Wagone()
 
     

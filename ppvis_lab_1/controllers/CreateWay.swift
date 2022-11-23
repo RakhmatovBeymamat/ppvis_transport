@@ -8,21 +8,26 @@
 import Foundation
 
 class CreateWay {
-    static func createWay(whichOne: Int) -> [Stations] {
+    static func createWay(whichOne: Int) -> Way {
+        
+        let way = Way()
+        
         switch whichOne {
         case 1:
             let firstWay: [Stations] = [.Tashkent, .Gulistan, .Jizzah, .Samarkand, .Buxara, .Xiva]
-            return firstWay
+            way.stationsOnWay = firstWay
         case 2:
             let secondWay: [Stations] = [.Andijan, .Namangan, .Tashkent, .Gulistan, .Navoi]
-            return secondWay
+            way.stationsOnWay = secondWay
         case 3:
             let thirdWay: [Stations] = [.Nukus, .Xiva, .Buxara, .Qarshi, .Termez]
-            return thirdWay
+            way.stationsOnWay = thirdWay
         default:
             let defaultWay: [Stations] = [.Tashkent, .Gulistan, .Jizzah, .Samarkand, .Buxara, .Xiva]
-            return defaultWay
+            way.stationsOnWay = defaultWay
         }
+        
+        return way
     }
 }
 

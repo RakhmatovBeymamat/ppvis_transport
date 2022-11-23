@@ -9,7 +9,7 @@
 class Wagone {
         
     let places: Int = 50
-    static var passengers: [Passenger] = []
+    var passengers: [Passenger] = []
     
     
     func checkAviablePlaces() -> Bool {

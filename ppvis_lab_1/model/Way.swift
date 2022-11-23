@@ -8,8 +8,5 @@
 import Foundation
 
 class Way {
-    static var stationsOnWay: [Stations] = []
-    
-    var countStations: Int = stationsOnWay.count
-    
+    var stationsOnWay: [Stations] = []
 }
