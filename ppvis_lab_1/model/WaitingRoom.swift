@@ -8,12 +8,20 @@
 import Foundation
 
 class WaitingRoom {
-    var places: Int
-    static var passengersInWaitingRoom: [Passenger] = []
+    var Places: Int = 100
     
-    init(places: Int, passengersInWaitingRoom: [Passenger]) {
-        self.places = places
+    static var passengersInWaitingRoom: [TicketTypes: Passenger] = [:]
+    
+    init(places: Int, passengersInWaitingRoom: [TicketTypes: Passenger]) {
         WaitingRoom.passengersInWaitingRoom = passengersInWaitingRoom
     }
     
 }
+
+
+//extension WaitingRoom {
+//    enum TypePlaces {
+//        case vip
+//        case defaultPlace
+//    }
+//}

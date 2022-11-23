@@ -10,5 +10,6 @@ import Foundation
 class Way {
     static var stationsOnWay: [Stations] = []
     
-    var countStations: Int = 0
+    var countStations: Int = stationsOnWay.count
+    
 }

@@ -26,6 +26,7 @@
 		BCB869C3292C9826006133B3 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C2292C9826006133B3 /* Semaphore.swift */; };
 		BCB869C5292C986A006133B3 /* UseSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C4292C986A006133B3 /* UseSemaphore.swift */; };
 		BCB869C9292C9AD0006133B3 /* CreateWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869C8292C9AD0006133B3 /* CreateWay.swift */; };
+		BCB869CB292DBE62006133B3 /* ExtentionForWaitingRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB869CA292DBE62006133B3 /* ExtentionForWaitingRoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +63,7 @@
 		BCB869C4292C986A006133B3 /* UseSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSemaphore.swift; sourceTree = "<group>"; };
 		BCB869C6292C98BF006133B3 /* about */ = {isa = PBXFileReference; lastKnownFileType = text; path = about; sourceTree = "<group>"; };
 		BCB869C8292C9AD0006133B3 /* CreateWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWay.swift; sourceTree = "<group>"; };
+		BCB869CA292DBE62006133B3 /* ExtentionForWaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionForWaitingRoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				BCB869BA292C8EAE006133B3 /* RailroadCrossing .swift */,
 				BCB869BE292C9414006133B3 /* WaitingRoom.swift */,
 				BCB869C2292C9826006133B3 /* Semaphore.swift */,
+				BCB869CA292DBE62006133B3 /* ExtentionForWaitingRoom.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -162,7 +165,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					BC862B4A291054C500986EBD = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -197,6 +200,7 @@
 				BCB869BD292C9343006133B3 /* CloseRailroad.swift in Sources */,
 				BC3D7A6129117EB600EAE27F /* Wagone.swift in Sources */,
 				BCB869B7292C8718006133B3 /* DeleteWagone.swift in Sources */,
+				BCB869CB292DBE62006133B3 /* ExtentionForWaitingRoom.swift in Sources */,
 				BC2DF4E8292C6C0C00FEBCA8 /* ControlConditionBarrier.swift in Sources */,
 				BC3D7A5F29117C8900EAE27F /* Station.swift in Sources */,
 				BC2DF4D3292C62D300FEBCA8 /* Barrier.swift in Sources */,
@@ -250,6 +254,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -310,6 +315,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -333,7 +339,9 @@
 		BC862B53291054C500986EBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5L7SS75SFS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -344,7 +352,9 @@
 		BC862B54291054C500986EBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5L7SS75SFS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
