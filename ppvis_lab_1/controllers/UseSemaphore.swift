@@ -13,11 +13,8 @@ class UseSemaphore {
         let createWay = CreateWay.createWay(whichOne: 2)
         Way.stationsOnWay = createWay
         let lastStation = Way.stationsOnWay.last
+        Train.endStation = lastStation!
         
-        if Train.endStation == lastStation {
-            return true
-        } else {
-            return false
-        }
+        return true
     }
 }

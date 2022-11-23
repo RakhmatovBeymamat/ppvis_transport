@@ -25,6 +25,7 @@ class Station {
     var whichStation: Stations
     var barrier = Barrier(condition: .open)
     var railRoadCrossing = RailroadCrossing(trafficLigth: .green, stopGland: .open)
+    var waitingRoom = WaitingRoom(places: 100, passengersInWaitingRoom: [:])
     
     init(stations: Stations) {
         self.whichStation = stations
