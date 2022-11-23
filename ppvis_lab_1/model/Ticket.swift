@@ -14,9 +14,14 @@ enum TicketTypes {
 
 class Ticket {
     
-    var ticketType: TicketTypes
+    var ticketType: TicketTypes = .defaut
     var currnetStationTicket: Stations
     var endStationTicket: Stations
+    
+    init(currnetStationTicket: Stations, endStationTicket: Stations) {
+        self.currnetStationTicket = currnetStationTicket
+        self.endStationTicket = endStationTicket
+    }
     
     init(ticketType: TicketTypes, currnetStationTicket: Stations, endStationTicket: Stations) {
         self.ticketType = ticketType

@@ -8,7 +8,7 @@
 import Foundation
 
 class MovingInWaitingRoom {
-    func move(passsenger: Passenger) {
+    static func move(passsenger: Passenger) {
         if UseSemaphore.useSemaphore() {
             if passsenger.ticket.ticketType == .vip {
                 WaitingRoom.passengersInWaitingRoom = [.vip: passsenger]

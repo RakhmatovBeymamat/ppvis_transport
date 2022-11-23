@@ -9,17 +9,33 @@ import Foundation
 
 class EnterInWagone {
     
-    func enterInWagone(passenger: Passenger, train: Train) {
-        if passenger.currentStationPassenger == train.currentStation {
-            if passenger.ticket.ticketType == .vip {
-                Wagone.passengers.append(passenger)
-            } else {
-                if passenger.passengerCargo > 47 {
-                    exit(0)
+    let main = Main()
+    
+    func enterInWagone(passengers: [Passenger], train: Train) {
+        
+        for passenger in passengers {
+            if passenger.currentStationPassenger == train.currentStation {
+                if passenger.ticket.ticketType == .vip {
+                    main.wagone.passengers.append(passenger)
                 } else {
-                    Wagone.passengers.append(passenger)
+                    if passenger.passengerCargo > 47 {
+                        exit(0)
+                    } else {
+                        main.wagone.passengers.append(passenger)
+                    }
                 }
             }
         }
+//        if passenger.currentStationPassenger == train.currentStation {
+//            if passenger.ticket.ticketType == .vip {
+//                main.wagone.passengers.append(passenger)
+//            } else {
+//                if passenger.passengerCargo > 47 {
+//                    exit(0)
+//                } else {
+//                    main.wagone.passengers.append(passenger)
+//                }
+//            }
+//        }
     }
 }

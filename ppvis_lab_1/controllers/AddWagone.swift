@@ -17,9 +17,12 @@ class AddWagone {
         }
     }
     
-    func addWagone(wagone: Wagone, train: Train) {
-        if train.maxCountOfWagone < 15 {
-            train.wagones.append(wagone)
+    var main = Main()
+    func addWagone(count: Int) {
+        if main.train.maxCountOfWagone < 15 {
+            for _ in 0...count {
+                main.train.wagones.append(Wagone())
+            }
         }
     }
 }
