@@ -61,7 +61,6 @@
 		BCB869C0292C980D006133B3 /* MovingInWaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingInWaitingRoom.swift; sourceTree = "<group>"; };
 		BCB869C2292C9826006133B3 /* Semaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
 		BCB869C4292C986A006133B3 /* UseSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseSemaphore.swift; sourceTree = "<group>"; };
-		BCB869C6292C98BF006133B3 /* about */ = {isa = PBXFileReference; lastKnownFileType = text; path = about; sourceTree = "<group>"; };
 		BCB869C8292C9AD0006133B3 /* CreateWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWay.swift; sourceTree = "<group>"; };
 		BCB869CA292DBE62006133B3 /* ExtentionForWaitingRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionForWaitingRoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +98,6 @@
 				BC862B572910578A00986EBD /* controllers */,
 				BC862B552910577300986EBD /* model */,
 				BC862B5C29116B7300986EBD /* main.swift */,
-				BCB869C6292C98BF006133B3 /* about */,
 			);
 			path = ppvis_lab_1;
 			sourceTree = "<group>";
